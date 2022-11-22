@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Live Coding 10</title>
+  </head>
+  <body>
+    <p id="ab"></p>
+    <script>
+      let ram = { name: "Ram", power: 2500, yuga: "tretra" };
+      let krishna = { Name: "Krishna", power: 2350, yuga: "dwarpa" };
+      if (ram.power > krishna.power) {
+        document.getElementById("ab").innerHTML =
+          ram.name + " is more powerfull than krishna";
+      } else {
+        document.getElementById("ab").innerHTML =
+          krishna.Name + " is more powerfull than ram";
+      }
+    </script>
+  </body>
+</html>
